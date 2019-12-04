@@ -96,8 +96,6 @@ db.Ucus.find({}).pretty()
 use OdemeDB
 use AdminDB
 db.Konfigs.insert([{'Subscriber':'Odeme','PublishQueue':'UcusAyarlandiEvent'}])
-db.Konfigs.find({}).pretty()
 db.Konfigs.insert([{'Subscriber':'Arac','PublishQueue':'OdemeBasariliOlduEvent'}])
-db.Konfigs.find({}).pretty()
 db.Konfigs.insert([{'Subscriber':'Konak','PublishQueue':'OdemeBasariliOlduEvent'}])
-
+db.Konfigs.find({}).pretty()
