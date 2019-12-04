@@ -27,6 +27,5 @@ cd eventrush
 [WAIT FOR TEACHER 3]
 sudo apt install docker.io
 sudo docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3-management
-
 sudo docker inspect some-rabbit
-[WAIT FOR TEACHER]
+[WAIT FOR TEACHER 4]
