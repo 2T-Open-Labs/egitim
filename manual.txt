@@ -104,5 +104,21 @@ db.Konfigs.find({}).pretty()
 sudo dotnet build
 sudo dotnet run
 
-31.  örnek tetik kaydı için
+31.  subscription için bir kere aşağıdakileri çalıştır, mecbur:
+
+https://localhost:5001/api/ucus
+https://localhost:6001/api/odeme
+https://localhost:7001/api/arac
+https://localhost:8001/api/konak
+
+32.  örnek tetik kaydı için
 sudo curl -X POST https://localhost:5001/api/ucus -H "Content-Type: application/json" -d '{"MusteriAdSoyad":"Oguzhan Ceylan", "UcusSaati":"12:00", "KalkisYeri":"ISP", "VarisYeri":"IST", "OdemeTutari":"3030"}' --insecure
+
+33.  kayıtları hem buradan kontrol et:
+https://localhost:5001/api/ucus
+https://localhost:6001/api/odeme
+https://localhost:7001/api/arac
+https://localhost:8001/api/konak
+
+34. hem de buradan kontrol et:
+Rabbit konsolunda Queues tabında...
