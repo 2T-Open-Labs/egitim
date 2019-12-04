@@ -87,4 +87,8 @@ db.Ucus.find({}).pretty()
 
 26.  Code programında Ucus.csproj sag tikla -> DCE Add Nuget Package -> gelen alana MongoDB.Driver enter
 
-27. 
+27.  Code içindeki terminalde Ucus/Ucus içine girip dotnet publish / dotnet run
+
+28.  tarayıcıdan https://localhost:5001/api/ucus geliyor mu?
+
+
