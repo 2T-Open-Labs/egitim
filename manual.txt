@@ -14,7 +14,7 @@ sudo apt-get install code # or code-insiders
 
 [WAIT FOR TEACHER 1]
 
-sudo code --user-data-dir=/home/sopho
+sudo code --user-data-dir=/home/[kullanıcı_adı]
 
 [WAIT FOR TEACHER 2]
 
