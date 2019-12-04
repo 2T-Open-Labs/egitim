@@ -65,6 +65,6 @@ AracAyarlandiEvent
 KonaklamaTalepEdildiEvent
 KonakAyarlandiEvent
 
-22.	 
+22.	 Exchange tabında Add a new exchange diyerek yeni bir Exchange Fanout-Transient olarak eklenir, ismi: odeme.exchange
 23.	 
 24.	
