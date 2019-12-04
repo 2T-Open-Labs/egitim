@@ -55,7 +55,8 @@ sudo docker inspect some-rabbit
 18.	Son docker inspect komutunda gelen cevapta son satırlardaki IPAddress in karşısındaki muhtemel 172 li adres kopyalanır -> [local_rabbitmq_ip]
 19.	Tarayıcı da [local_rabbitmq_ip]:15672 adresi açılır
 20.	guest guest ile girilir
-21.	Queues tabında Add a new queue diyerek aşağıdaki Queue lar Type:Classic, Durabilitiy:Transient seçilerek eklenir:
+21.	Queues tabında Add a new queue diyerek aşağıdaki Queue lar Type:Classic, Durabilitiy:Transient seçilerek eklenir (ard arda eklerken Durability yi Transient olarak tekrar tekrar seçmeyi unutma):
+
 UcusAyarlandiEvent
 OdemeBasariliOlduEvent
 OdemeHatasiOlustuEvent
@@ -63,6 +64,7 @@ AracTalepEdildiEvent
 AracAyarlandiEvent
 KonaklamaTalepEdildiEvent
 KonakAyarlandiEvent
+
 22.	 
 23.	 
 24.	
