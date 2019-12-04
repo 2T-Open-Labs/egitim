@@ -74,5 +74,8 @@ Queue adı: KonaklamaTalepEdildiEvent - Routing key: Konak
 24.  aşağıdaki komutu çalıştır
 
 sudo apt-get install mongodb
+mongo
 
-25.	 
+25.	 Mongo konsolunda aşağıdakilerini çalıştır
+
+
