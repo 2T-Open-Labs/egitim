@@ -14,7 +14,7 @@ sudo apt-get install code # or code-insiders
 
 sudo code --user-data-dir=/home/sopho
 
-[WAIT FOR TEACHER]
+[WAIT FOR TEACHER 1]
 
 mkdir calisma
 cd calisma
@@ -22,7 +22,7 @@ sudo apt-get install git
 sudo git clone https://github.com/oceylantr/eventrush.git
 cd eventrush
 
-[WAIT FOR TEACHER]
+[WAIT FOR TEACHER 2]
 sudo apt install docker.io
 sudo docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3-management
 
