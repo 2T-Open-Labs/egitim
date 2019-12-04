@@ -66,5 +66,11 @@ KonaklamaTalepEdildiEvent
 KonakAyarlandiEvent
 
 22.	 Exchange tabında Add a new exchange diyerek yeni bir Exchange Fanout-Transient olarak eklenir, ismi: odeme.exchange
-23.	 Exchange listesinde odeme.exchange e girilir, 
+23.	 Exchange listesinde odeme.exchange e girilir, binding ler aşağıdaki gibi eklenir:
+
+Queue adı: AracTalepEdildiEvent - Routing key: Arac
+Queue adı: KonaklamaTalepEdildiEvent - Routing key: Konak
+
+24.  
+
 24.	
