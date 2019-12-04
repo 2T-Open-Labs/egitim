@@ -71,6 +71,8 @@ KonakAyarlandiEvent
 Queue adı: AracTalepEdildiEvent - Routing key: Arac
 Queue adı: KonaklamaTalepEdildiEvent - Routing key: Konak
 
-24.  
+24.  aşağıdaki komutu çalıştır
 
-24.	
+sudo apt-get install mongodb
+
+25.	 
