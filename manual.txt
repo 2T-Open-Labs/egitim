@@ -85,5 +85,6 @@ db.Ucus.insert([{'Name':'Kaya Kuş','UcusSaati':'12:00','KalkisYeri':'ATA','Vari
 db.Ucus.insert([{'Name':'Ahmet Daş','UcusSaati':'17:00','KalkisYeri':'SBH','VarisYeri':'PAR'}])
 db.Ucus.find({}).pretty()
 
-26.  Code programında csproj sag tikla -> DCE Add Nuget Package -> gelen alana MongoDB.Driver enter
+26.  Code programında Ucus.csproj sag tikla -> DCE Add Nuget Package -> gelen alana MongoDB.Driver enter
 
+27. 
