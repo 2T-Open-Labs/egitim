@@ -103,3 +103,6 @@ db.Konfigs.find({}).pretty()
 30.  yeni 4 terminal açıp 4 projenin son dizinine girip sırayla çalıştırın
 sudo dotnet build
 sudo dotnet run
+
+31.  örnek tetik kaydı için
+sudo curl -X POST https://localhost:5001/api/ucus -H "Content-Type: application/json" -d '{"MusteriAdSoyad":"Oguzhan Ceylan", "UcusSaati":"12:00", "KalkisYeri":"ISP", "VarisYeri":"IST", "OdemeTutari":"3030"}' --insecure
