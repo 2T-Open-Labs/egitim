@@ -99,3 +99,7 @@ db.Konfigs.insert([{'Subscriber':'Odeme','PublishQueue':'UcusAyarlandiEvent'}])
 db.Konfigs.insert([{'Subscriber':'Arac','PublishQueue':'OdemeBasariliOlduEvent'}])
 db.Konfigs.insert([{'Subscriber':'Konak','PublishQueue':'OdemeBasariliOlduEvent'}])
 db.Konfigs.find({}).pretty()
+
+30.  yeni 4 terminal açıp 4 projenin son dizinine girip sırayla çalıştırın
+sudo dotnet build
+sudo dotnet run
