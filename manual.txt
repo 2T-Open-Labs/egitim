@@ -1,22 +1,39 @@
+1.	Ubuntu kurulum
+2.	Terminal to desktop
+3.	Text entry
+4.	NOT TT Group
+5.	https://github.com/TT-Open-Labs/egitim/blob/master/manual.txt
+6.	Aşağıdaki komutları çalıştır
+
 sudo apt-get update
+
 wget -q https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+
 sudo dpkg -i packages-microsoft-prod.deb
+
 sudo apt-get install apt-transport-https
+
 sudo apt-get update
+
 sudo apt-get install dotnet-sdk-2.2
+
 sudo apt install curl
 
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+
 sudo apt-get update
+
 sudo apt-get install code # or code-insiders
 
-[WAIT FOR TEACHER 1]
-
-sudo code --user-data-dir=/home/[kullanıcı_adı]
-
-[WAIT FOR TEACHER 2]
+7.	Terminalde cd /home, sonrasındaki ana kullanıcı dizini ismine ilerle [kullanıcı_adı]
+8.	Örn: cd /oguzhan
+9.	sudo code --user-data-dir=\home\oguzhan
+10.	Code extensions bölümünde c#, docker, Dotnet Core Essentials pluginlerini kuralım
+11.	Aşağıdaki komutları çalıştır
 
 mkdir calisma
 cd calisma
@@ -24,8 +41,28 @@ sudo apt-get install git
 sudo git clone https://github.com/oceylantr/eventrush.git
 cd eventrush
 
-[WAIT FOR TEACHER 3]
+12.	Code içinde eventrush dizinini OpenFolder ilea ç
+13.	Code un sağ alt köşesinde çıkan Resolve Dependencies e Ok demelisin
+14.	F1 basıp, DCE Build seçilir, gelen listed eventrush.csproj seçilir
+15.	Debug -> Start Without Debugging
+16.	Tarayıcıda localhost:5001 e girildiğinde boş sayfa geliyor ve Code içindeki konsolda Request finished leri görüyorsak ok
+17.	Aşağıdaki komutları çalıştır
+
 sudo apt install docker.io
 sudo docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3-management
 sudo docker inspect some-rabbit
-[WAIT FOR TEACHER 4]
+
+18.	Son docker inspect komutunda gelen cevapta son satırlardaki IPAddress in karşısındaki muhtemel 172 li adres kopyalanır -> [local_rabbitmq_ip]
+19.	Tarayıcı da [local_rabbitmq_ip]:15672 adresi açılır
+20.	guest guest ile girilir
+21.	Queues tabında Add a new queue diyerek aşağıdaki Queue lar Type:Classic, Durabilitiy:Transient seçilerek eklenir:
+UcusAyarlandiEvent
+OdemeBasariliOlduEvent
+OdemeHatasiOlustuEvent
+AracTalepEdildiEvent
+AracAyarlandiEvent
+KonaklamaTalepEdildiEvent
+KonakAyarlandiEvent
+22.	 
+23.	 
+24.	
