@@ -91,4 +91,13 @@ db.Ucus.find({}).pretty()
 
 28.  tarayıcıdan https://localhost:5001/api/ucus geliyor mu?
 
+29.  mongo konsolunda aşağıdakileri çalıştır:
+
+use OdemeDB
+use AdminDB
+db.Konfigs.insert([{'Subscriber':'Odeme','PublishQueue':'UcusAyarlandiEvent'}])
+db.Konfigs.find({}).pretty()
+db.Konfigs.insert([{'Subscriber':'Arac','PublishQueue':'OdemeBasariliOlduEvent'}])
+db.Konfigs.find({}).pretty()
+db.Konfigs.insert([{'Subscriber':'Konak','PublishQueue':'OdemeBasariliOlduEvent'}])
 
